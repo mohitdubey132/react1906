@@ -1,0 +1,42 @@
+.base__diaalog{
+    margin: 0px 30px 20px 20px;
+    padding: 0px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.Dialog__header{
+    display: flex;
+    font-size: 20px;
+    color: var(--primary-1363-df, #1363DF);
+text-align: center;
+
+/* H1 Lato-bold */
+font-size: 20px;
+font-family: Lato;
+font-weight: 700;
+justify-content: space-between;
+}
+.UpdateJobPre__subTitle{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(35,35,35,1);
+}
+.p-0{
+    padding: 0px;
+}
+.m-0{
+    margin: 0px;
+}
+.dis-flex{
+    display: flex;
+}
+.dis-flex-col{
+
+    display: flex;
+    flex-direction: column;
+}
+.just-between{
+    justify-content: space-between;
+}

@@ -1,0 +1,36 @@
+.custombtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2px;
+    align-items: center;
+    margin: 0px;
+    border-bottom:'1px solied black' ;
+    border-radius: 7.5px;
+}
+.custombtn:hover{
+    background-color: black;
+    color: rgba(255,255,255,1);
+}
+.custombtn__contente{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-stretch: condensed;
+
+}
+.custombtn__contente__title{
+    font-size: '14px';
+    font-weight: 600;
+    font-family: Lato;
+    display: flex;
+}
+.custombtn__contente__subTitle{
+    font-size: '12px';
+    font-weight: 400;
+    font-family: Lato;
+    display: flex;
+}
+.custombtn__icon:hover{
+    color: inherit;
+}
