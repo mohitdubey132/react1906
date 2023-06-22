@@ -40,3 +40,52 @@ justify-content: space-between;
 .just-between{
     justify-content: space-between;
 }
+
+/* updateDocument  */
+.InputArea{
+    display:"flex";
+    flex-Direction:"column";
+    gap:"15px";
+    height:89px;
+    background-Color:rgb(252, 250, 250);
+}
+.InputArea__InputBox{
+    border:1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.update__doc__btn{
+    border: none;
+    background-color: #ffff;
+}
+
+
+/* Hiring Process */
+.HiringProcess{
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px 12px 0px 0px;
+  background: var(--white-ffffff, #FFF);
+  width: 443px;
+height: 600px;
+transition: -20px;
+}
+.specialBorder{
+    border-left:4px rgba(19 ,99 ,229,1)   ;
+    border-left-width: 2px;
+    border-left-style: dashed ;
+}
+
+/* refer to friendes */
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+}

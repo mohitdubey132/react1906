@@ -191,7 +191,7 @@ const Header = () => {
           gap: "11px",
           margin:'8px',
           padding:"3px 10px",
-          alignContent: "center",
+          alignItems: "center",
           justifyContent: "center",
           backgroundColor:"rgba(223, 230, 235, 1)",
           borderRadius:"7px"
