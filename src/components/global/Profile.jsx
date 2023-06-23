@@ -3,6 +3,8 @@ import profile from "../../Asset/profilepic.png";
 import { Link } from "react-router-dom";
 import {CustomBtn} from "../index";
 import '../../index.css';
+import {Exprence,Download} from '../Pages'
+import {Routes,Route} from 'react-router-dom';
 const Profile = () => {
   return (
     <div
@@ -134,15 +136,22 @@ These Information can be view by Hiring Teams.
           </div>
         </div>
         <div style={{margin:"0px 2px 0px 8px" ,gap:"5px" ,display:"flex",flexDirection:"column"}}>
-        <CustomBtn title={'Work Experience & Skills'} subTitle={'Add all your Internships, Work Details...'}/>
+<Link to={'/Experience'} style={{textDecorationLine:"none" ,textDecorationColor:"black"}} >       <CustomBtn title={'Work Experience & Skills'} subTitle={'Add all your Internships, Work Details...' } /></Link>
         <CustomBtn title={'Qualifications'} subTitle={'Highlight your Education in the eye of recruiters..'}/>
         <CustomBtn title={'Highlights, Sports...'} subTitle={'Show your Highlights & Sports etc to recruiting te..'}/>
         <CustomBtn title={'Recommendations'} subTitle={'Provide Recommendations,get Recommendation..'}/>
         <CustomBtn title={'Upload Video Resume'} subTitle={'Now share your details in video form to Employer'}/>
-        <CustomBtn title={'Download Resume'} subTitle={'All data will be combined in a format, you can dow...'}/>
+        <Link to={'/Download'} style={{textDecorationLine:"none" ,textDecorationColor:"black"}} >
+                  <CustomBtn title={'Download Resume'} subTitle={'All data will be combined in a format, you can dow...'} />
+        </Link>
         </div>
       </div>
       {/* seccession 2 */}
+      <Routes>
+      <Route path="/Experience" element={<Exprence/>}/>
+      <Route path='/Download' element={<Download/>}/>
+      
+    </Routes>
     </div>
   );
 };

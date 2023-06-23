@@ -23,6 +23,7 @@ const Header = () => {
       position:"sticky",
       background:"white",
       zIndex:"10",
+      alignItems:"center",
         justifyContent:"space-between"
       }}
     >
@@ -54,7 +55,7 @@ const Header = () => {
         style={{
           display: "flex",
           gap: "30px",
-          alignContent: "center",
+          alignItems: "center",
           justifyContent: "center",
         }}
       >
@@ -64,8 +65,9 @@ const Header = () => {
             border: "1px solid",
             borderColor: "gray",
             borderRadius: "8px",
-            alignContent:"center",
-            justifyContent:"center"
+            alignItems:"center",
+            justifyContent:"center",
+            height:"40px"
           }}
         >
           <Input
@@ -75,9 +77,10 @@ const Header = () => {
               fontFamily: "Lato",
               padding: "0px 0px 0px 5px",
               border: "2px",
+              margin:"0px"
             }}
           />
-          <Button style={{margin:"0px"}}>
+          <Button style={{margin:"0px",}}>
             <SearchRounded />
           </Button>
         </div>

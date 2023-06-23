@@ -1,0 +1,15 @@
+#Experience{
+    margin: 20px 25px 30px 25px;
+    display: flex;
+    flex-direction:column ;
+    gap:"20px";
+    height: 100%;
+    width: 60%;
+    /* position: fixed; */
+}
+.title{
+    font:16px Lato blue;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 20px;
+}
